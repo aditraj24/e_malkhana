@@ -319,16 +319,3 @@ export default class ActionResponse<T> {
 Prevents MongoDB connection exhaustion during hot-reloads and serverless function executions by persisting the connection across invocations on `globalThis`.
 
 ---
-
-## 🔮 Future Enhancements & Roadmap
-
-- [ ] **Cryptographic Hash-Chaining:** Link sequential `CustodyLog` entries via SHA-256 (`blockchainHash`) to make tampering mathematically detectable.
-- [ ] **Multi-Document Mongo Transactions:** Wrap multi-property transfers inside replica-set sessions (`session.withTransaction`).
-- [ ] **Full-Text Atlas Search:** Replace standard regex matching with tokenized indexing for instant lookup across FIR descriptions and property remarks.
-- [ ] **Real-Time Push Notifications:** WebSocket/SSE alerts for urgent transfer requests and critical custody movements.
-
----
-
-## 📄 License
-
-This project is developed for police evidence management modernization. Distributed under the **MIT License**.
